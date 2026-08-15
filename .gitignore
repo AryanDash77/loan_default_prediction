@@ -1,0 +1,31 @@
+# Raw data - too large for GitHub, reproducible from Kaggle
+data/raw/*.csv
+data/raw/*.csv.gz
+data/raw/*.zip
+
+# Keep the folder structure but ignore contents
+!data/raw/.gitkeep
+
+# Processed data (optional - decide per file size)
+# data/processed/*.csv
+
+# Models
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environments
+venv/
+.venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+
