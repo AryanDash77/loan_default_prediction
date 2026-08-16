@@ -6,8 +6,9 @@ data/raw/*.zip
 # Keep the folder structure but ignore contents
 !data/raw/.gitkeep
 
-# Processed data (optional - decide per file size)
-# data/processed/*.csv
+# Processed data (optional - decide per file size) 
+data/processed/*.csv
+          
 
 # Models
 *.pkl
@@ -26,6 +27,8 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+
 
 
 
